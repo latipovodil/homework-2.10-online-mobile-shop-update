@@ -903,131 +903,256 @@ img {
             transform: rotate(360deg);
   }
 }
-.footer {
-  margin-top: 60px;
-  background-color: #FFFFFF;
+.buy__top {
+  background-color: #fff;
   -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 30px 30px 0px 0px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
   padding: 30px;
 }
 
-.footer__logo-box {
-  max-width: 85px;
-  height: 30px;
+.buy__img-box1 {
+  width: 86px;
+  margin-left: auto;
+  margin-right: 25px;
 }
 
-.footer__menu-link,
-.footer__lan-title {
-  display: inline-block;
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
-  color: #000000;
+.buy__img-box2 {
+  max-width: 284px;
 }
 
-.footer__container {
+.buy__img-box3 {
+  max-width: 230px;
+  margin-top: 30px;
+}
+
+.buy__top-hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: top;
-      -ms-flex-align: top;
-          align-items: top;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.footer__lan-link {
+.buy__top-title {
   font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
-  color: #101010;
-  margin-left: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #1C1C27;
+  margin-right: auto;
 }
 
-.footer__lan-link2 {
+.buy__top-footer-text {
   font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  color: #FFA542;
-  margin-left: 10px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #DF6464;
 }
 
-.footer__language::before {
-  content: "";
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-image: url("../../img/lan-img.svg");
-  width: 20px;
-  height: 23px;
-  vertical-align: middle;
+.buy__top-footer-text2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #AAAAAA;
 }
 
-.footer__language {
-  margin-top: 35px;
+.buy__top-footer-text3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #DF6464;
+  margin-left: 38px;
 }
 
-.footer__company-box {
+.buy__top-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
-.footer__company-item + .footer__company-item {
-  margin-left: 18px;
+.buy__buttom {
+  margin-top: 50px;
 }
 
-.footer__menu2, .footer__menu3 {
-  margin-top: 10px;
+.buy__buttom-left {
+  background: #F9F9F9;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
-@media only screen and (max-width: 900px) {
-  .footer__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .footer__company {
-    margin-top: 30px;
-  }
-  .footer__lan {
-    margin-left: 20px;
-    margin-top: 20px;
-  }
+.buy__buttom-title {
+  width: 100%;
+  padding: 22px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1C1C27;
 }
-@media only screen and (max-width: 400px) {
-  .footer__container {
+
+.buy__buttom-text-item {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1C1C27;
+  margin-bottom: 10px;
+}
+
+.buy__buttom-text-box {
+  padding: 22px;
+}
+
+.buy__buttom-right-link {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding: 13px 86px;
+  background-color: #101010;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.buy__buttom-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.buy__buttom-right-link2::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../img/basketimg.svg");
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.buy__buttom-right-link1 {
+  padding: 16.5px 86px;
+  margin-bottom: 18px;
+}
+
+.buy__buttom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.buy__buttom-left {
+  width: 64%;
+}
+
+@media only screen and (max-width: 600px) {
+  .buy__top-footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
   }
-  .footer__lan {
-    margin: 0;
+  .buy__top-title {
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .buy__buttom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .buy__buttom-right-link {
     margin-top: 20px;
   }
-  .footer__company {
-    margin: 0;
+  .buy__buttom-left {
+    width: 100%;
   }
-  .footer__site-navigation {
-    margin-top: 20px;
+}
+.like3 {
+  position: absolute;
+  top: 19px;
+  left: 24px;
+  width: 20px;
+  height: 20px;
+}
+
+.like4 {
+  display: none;
+}
+
+.label1 {
+  position: relative;
+}
+
+.input1:checked + .label1 .like3 {
+  display: none;
+}
+.input1:checked + .label1 .like4 {
+  display: inline-block;
+  position: absolute;
+  top: 19px;
+  left: 24px;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-name: like;
+          animation-name: like;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@keyframes like {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
-  .footer__company {
-    margin-top: 20px;
+  50% {
+    width: 60px;
+    height: 60px;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }/*# sourceMappingURL=main.css.map */
